@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Location Display</title>
+    <style>
+        #map {
+            height: 400px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>Location Display </h1> 
+    <div id="map"></div>
+   
+    <script>
+        // of My Eletrical Vehical
+        function initMap() {
+                                                                               // Default coordinates (e.g., balakot Swat City)
+            var defaultLocation = { lat: 35.337088, lng: 72.565735 };
+
+                                                                              
+            var map = new google.maps.Map(document.getElementById('map'), {    // Create a map object and specify the DOM element for display.
+                center: defaultLocation,
+                zoom: 8
+            });
+
+                                                                             // Retrieve latitude and longitude values from user input or other sources
+            var latitude = YOUR_LATITUDE_VALUE;                              // Replace with your latitude value
+            var longitude = YOUR_LONGITUDE_VALUE;                            // Replace with your longitude value
+
+                                                                            
+            var location = new google.maps.LatLng(latitude, longitude);     // Create a new LatLng object using the latitude and longitude values
+
+                                                                          
+            map.setCenter(location);                                        // Set the map center to the retrieved location
+
+                                                                              
+            var marker = new google.maps.Marker({                          // Create a marker at the retrieved location
+                position: location,
+                map: map,
+                title: 'Location'
+                                                                          //icon: 'link' -- if we want an image icon as marker
+            });
+
+            var ghal = new google.maps.InfoWindow({                           //marker labal on click
+                content: '<h1> Ghal dady </h1>'
+            });
+
+            marker.addListener('click', function(){                           //listen onclick
+                InfoWindow.open(map, marker);
+            });
+        }
+
+    </script>
+
+    <!-- Load the Maps JavaScript API -->
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+    </script>
+</body>
+</html>

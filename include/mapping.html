@@ -7,6 +7,8 @@
 </head>
 <body>
     
+    <button id = "control-button"> stop</button>
+    
     <h1>Location Display </h1> 
     <div id="map"></div>
    
@@ -29,7 +31,7 @@
                     zoom: 15
                 });
                             
-            for (let i = 0; i < 5; i++)
+            for (let i = 0; i < 15; i++)
             {                                                                   // Retrieve latitude and longitude values from user input or other sources                                                                      
                 var location = new google.maps.LatLng(latitude, longitude);     // Create a new LatLng object using the latitude and longitude values                                                           
                 map.setCenter(location);                                        // Set the map center to the retrieved location

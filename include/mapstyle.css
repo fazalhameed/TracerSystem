@@ -1,10 +1,17 @@
 
 
-
 body {
+
     background-color:antiquewhite;
 }
 
+#control-button {
+
+    background-color: red;
+    margin: 2% 50%;
+    width: 100px; height: 40px;
+    border-radius: 20px;
+}
 
 #map {
 
@@ -12,4 +19,6 @@ body {
     margin-left: 10%;
     height: 600px;
     width: 80%;
+    border-radius: 20px;
+
 }

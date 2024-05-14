@@ -47,12 +47,12 @@ void loop() {
 
 void handleOnroot() {
   digitalWrite(led, 1);
-  char temp[400];
+  char temp[800];
 
   H = random();
   T = random();
 
-  snprintf(temp, 400,
+  snprintf(temp, 800,
   "<html>\
   <head>\
     <meta http-equiv='refresh' content='5'/>\
@@ -62,15 +62,11 @@ void handleOnroot() {
     </style>\
   </head>\
   <body>\
-    <h1>L and H from ESP32!</h1>\
-    <p>H: %01d</p>\
-    <p>T: %01d</p>\
   </body>\
 </html>",
-
            H, T
           );
-  Server.send(200, "text/html", temp);
+  Server.send(500, "text/html", temp);
   digitalWrite(led, 0);
 }
 

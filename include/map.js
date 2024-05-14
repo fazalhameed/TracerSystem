@@ -1,6 +1,4 @@
 
-
-
 map.setCenter(new google.maps.LatLng(-34, 151));
 map.setCenter({lat: -34, lng: 151});  new google.maps.LatLng(-34, 151);
 
@@ -13,3 +11,4 @@ map.setCenter({lat: -34, lng: 151});  new google.maps.LatLng(-34, 151);
   
   map.setCenter({lat: -34, lng: 151});
   new google.maps.Marker({position: {lat: -34, lng: 151}, map: map});   
+  

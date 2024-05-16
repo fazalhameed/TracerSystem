@@ -33,8 +33,6 @@ void setup() {
 
   Server.onNotFound(handleOnNotFound);
 
-
-
 }
 
 void loop() {

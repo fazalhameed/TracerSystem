@@ -42,9 +42,9 @@ Refer to Google Maps JavaScript API documentation for map integration.
 ## Implementation
 Refer to the provided links for integrating map APIs and implementing the Tracer system.
 ## README Summary
-- **Objective:** Real-time tracking with Tracer device.
-- **Components:** ESP32, GPS Module, LoRaWAN.
-- **Communication:** UART, Bluetooth, LoRa.
+- Objective: Real-time tracking with Tracer device.
+- Components: ESP32, GPS Module, LoRaWAN.
+- Communication: UART, Bluetooth, LoRa.
 - **Network:** Local Wi-Fi, Ad-Hoc Wi-Fi, Offline Maps.
 - **Map Integration:** Google Maps API, Mapbox.
 - **Methodologies:** ESP-IDF, Security Configurations.

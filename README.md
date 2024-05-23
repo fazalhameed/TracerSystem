@@ -51,5 +51,4 @@ Refer to the provided links for integrating map APIs and implementing the Tracer
 - **Units:** Monitoring Unit, Moving Unit.
 
 
-- **Implementation:**
 

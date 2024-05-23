@@ -5,7 +5,7 @@
 Designing an embedded/IoT product for real-time tracking using components like ESP32, STM8, UBLOX NEO-6M V2 GPS Module, and LoRaWAN module.
 
 ## Components Used
-- ESP32 microcontroller
+- ESP32 microcontrollers
 - STM8 microcontroller
 - UBLOX NEO-6M V2 GPS Module
 - LoRaWAN module

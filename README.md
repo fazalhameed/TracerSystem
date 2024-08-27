@@ -45,10 +45,10 @@ Refer to the provided links for integrating map APIs and implementing the Tracer
 - Objective: Real-time tracking with Tracer device.
 - Components: ESP32, GPS Module, LoRaWAN.
 - Communication: UART, Bluetooth, LoRa.
-- **Network:** Local Wi-Fi, Ad-Hoc Wi-Fi, Offline Maps.
-- **Map Integration:** Google Maps API, Mapbox.
-- **Methodologies:** ESP-IDF, Security Configurations.
-- **Units:** Monitoring Unit, Moving Unit.
+- Network: Local Wi-Fi, Ad-Hoc Wi-Fi, Offline Maps.
+- Map Integration: Google Maps API, Mapbox.
+- Methodologies: ESP-IDF, Security Configurations.
+- Units: Monitoring Unit, Moving Unit.
 
 
 
